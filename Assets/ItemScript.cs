@@ -26,19 +26,16 @@ public class ItemScript : MonoBehaviour
 	private void OnTriggerEnter(Collider other)
 	{
 		// ÚG‚µ‚½uŠÔ‚ÉŒÄ‚Î‚ê‚é
-		//DestroySelf();
 		animator.SetTrigger("Get");
 	}
 
 	private void OnTriggerStay(Collider other)
 	{
 		// ÚG‚µ‚Ä‚¢‚éŠÔ‚ÉŒÄ‚Î‚ê‚é
-		Debug.Log("Stay");
 	}
 
 	private void OnTriggerExit(Collider other)
 	{
 		// —£‚ê‚½‚ÉŒÄ‚Î‚ê‚é
-		Debug.Log("Exit");
 	}
 }
