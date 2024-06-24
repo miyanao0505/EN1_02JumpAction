@@ -8,12 +8,13 @@ public class ArrowDraw : MonoBehaviour
 	[SerializeField]
 	private Image arrowImage;
 	private Vector3 clickPosition;
+	
 
 	// Start is called before the first frame update
 	void Start()
 	{
-        arrowImage.gameObject.SetActive(false);
-    }
+		arrowImage.gameObject.SetActive(false);
+	}
 
 	// Update is called once per frame
 	void Update()
